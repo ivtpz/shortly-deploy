@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "node server.js",
+    "build": "grunt build && grunt upload",
     "test": "grunt test",
     "lint": "eslint ./"
   },
